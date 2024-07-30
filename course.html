@@ -3,7 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Course Page</title>
+    <link rel="icon" type="image/png" href="/assets/9racode_fav.png" />
+    <title>9racode - Courses Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <header
+      class="py-4 px-8 bg-cyan-800 flex items-center justify-between border-b-4 border-amber-500"
+    >
+      <div id="logo" class="flex flex-row items-center">
+        <div id="image" class="">
+          <img src="assets/9racode_logo.png" class="object-cover h-16 w-16" />
+        </div>
+        <div id="text" class="text-2xl self-end text-amber-300">
+          9RACODE
+          <span id="author" class="text-lg">By Boziad</span>
+        </div>
+      </div>
+      <div>
+        <div class="dropdown dropdown-end">
+          <div
+            tabindex="0"
+            role="button"
+            class="bg-amber-500 w-10 h-10 flex justify-center items-center rounded-full"
+          >
+            <i class="fa-solid fa-user text-2xl text-cyan-900"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="dropdown-content menu bg-base-100 z-[1] w-52 p-2 shadow"
+          >
+            <li class="hover:bg-amber-300 font-bold">
+              <a>
+                <i class="fa-solid fa-id-card"></i>
+                Profile
+              </a>
+            </li>
+            <li class="hover:bg-amber-300 font-bold">
+              <a>
+                <i class="fa-solid fa-arrow-left"></i>
+                Sign out
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="breadcrumbs px-16 text-sm py-4 bg-amber-200 text-cyan-800">
+      <ul>
+        <li><a class="text-base font-medium">Home</a></li>
+        <li><a class="text-base font-medium">Documents</a></li>
+      </ul>
+    </div>
+    <main class="px-16">
+      <div class="mb-4 text-cyan-900 mt-8">
+        <h2 class="text-2xl font-bold">Quiz Game</h2>
+        <div class="divider my-1"></div>
+        <p>Create a program to run timed quizes via the command line.</p>
+      </div>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
 </html>
