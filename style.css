@@ -15,3 +15,10 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.progress::-webkit-progress-value {
+  border-radius: 0;
+}
+.progress::-moz-progress-value {
+  border-radius: 0;
+}
