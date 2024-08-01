@@ -80,10 +80,22 @@
     <main class="px-4 pb-5">
       <div class="grid md:grid-cols-4 gap-2 mt-4">
         <div class="md:col-span-3 md:order-last">
-          <iframe
-            class="w-full aspect-video ..."
-            src="https://www.youtube.com/embed/MYg2C8e6ikI?si=54JNOgRc2-86loMc"
-          ></iframe>
+          <div>
+            <iframe
+              class="w-full aspect-video ..."
+              src="https://www.youtube.com/embed/MYg2C8e6ikI?si=54JNOgRc2-86loMc"
+            ></iframe>
+          </div>
+          <div class="my-2 flex justify-between">
+            <button class="btn rounded-none">
+              <i class="fa-solid fa-angles-left"></i>
+              Introduction
+            </button>
+            <button class="btn rounded-none">
+              What is an algorithm?
+              <i class="fa-solid fa-angles-right"></i>
+            </button>
+          </div>
         </div>
         <div class="px-1">
           <div>
@@ -100,11 +112,7 @@
             >
               <div class="form-control">
                 <div class="cursor-pointer label justify-start">
-                  <input
-                    type="checkbox"
-                    checked
-                    class="checkbox checkbox-success"
-                  />
+                  <input type="checkbox" class="checkbox checkbox-success" />
                   <span
                     class="label-text font-medium ml-3 text-lg text-slate-600"
                     >Introduction</span
@@ -117,7 +125,11 @@
             >
               <div class="form-control">
                 <div class="cursor-pointer label justify-start">
-                  <input type="checkbox" class="checkbox checkbox-success" />
+                  <input
+                    type="checkbox"
+                    checked
+                    class="checkbox checkbox-success"
+                  />
                   <span
                     class="label-text font-medium ml-3 text-lg text-slate-600"
                     >The classic FizzBuzz problem</span
